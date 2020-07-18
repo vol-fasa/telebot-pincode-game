@@ -109,45 +109,5 @@ def send_text(message):
           None, None, None, 'Markdown'
         )
 
-
-
-
-
-
-
-
-
-
-  #   bot.send_message(message.chat.id, 'Привет, мой создатель')
-  #   bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAIBIF72AcLq0beg9ekOed5u5eFvyVMoAAInAwACz1-LB09HVo5mPhrmGgQ')
-  # elif message.text.lower() == 'пока':
-  #   bot.send_message(message.chat.id, 'Прощай, создатель')
-  #   bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAAOGXvXpvqvsmUJEYWMrxEv4STfn_z8AAlIAA0G1VgwCEOJkaX8PchoE')
-  # elif message.text.lower() == 'я тебя люблю':
-  #   bot.send_message(message.chat.id, 'Я тоже')
-  #   bot.send_sticker(message.chat.id, 'CAACAgIAAxkBAANHXvTbSLeKgRwfbPX7gsuAjmQFKGUAAjMEAALEq2gL02HejFYnl1QaBA')
-  # elif message.text.lower() == 'начать играть':
-  #   bot.send_message(message.chat.id, '\nСколько ')
-  #   schet = 1
-  #   num = message.text
-  #   num = int(num)
-  #   a = pinCode2(num)
-  #   s = calcEquals(a, requestPincode())
-  #   while s[0] != num:
-  #     bot.send_message(message.chat.id, 'Полных совпадений', s[0], 'Неполных совпадений', s[1])
-  #     s = calcEquals(a, requestPincode())
-  #     schet = schet + 1
-  #   bot.send_message(message.chat.id, 'Вы отгадали пинкод\nВы отгадали за {} попытки'.format(schet))
-
-
 bot.polling()
 
-#num = int(input('Сколько цифр будет в пинкоде(можно загадывать от 1 цифры до 9)\n'))
-#schet = 1
-#a = pinCode2(num)
-#s = calcEquals(a, requestPincode())
-#while s[0] != num:
- # print('Полных совпадений', s[0], 'Неполных совпадений', s[1])
-  #s = calcEquals(a, requestPincode())
-  #schet = schet + 1
-#print('Вы отгадали пинкод\nВы отгадали за {} попытки'.format(schet))
